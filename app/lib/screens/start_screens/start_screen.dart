@@ -16,9 +16,9 @@ class StartScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 40),
+            const SizedBox(height: 80),
             const Image(image: AssetImage(kStartImageAssetPath)),
-            const SizedBox(height: 15),
+            const SizedBox(height: 30),
             const Text(
               'Welcome to',
               style: TextStyle(
@@ -31,7 +31,7 @@ class StartScreen extends StatelessWidget {
               tag: kLogoHeroTag,
               child: Image.asset(kLogoImageAssetPath, height: 30),
             ),
-            const SizedBox(height: 15),
+            const SizedBox(height: 30),
             const Text(
               'Discover your dream job with all the right opportunities in one place.',
               style: TextStyle(
@@ -39,7 +39,7 @@ class StartScreen extends StatelessWidget {
                 fontWeight: FontWeight.w300,
               ),
             ),
-            const SizedBox(height: 160),
+            const SizedBox(height: 220),
             DoubleButton(
               onPressedFirst: () {
                 Navigator.pushNamed(context, Routes.login);

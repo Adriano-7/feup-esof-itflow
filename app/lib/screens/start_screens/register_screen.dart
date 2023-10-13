@@ -46,6 +46,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: Image.asset(kLogoImageAssetPath, height: 30),
           ),
           centerTitle: true,
+          backgroundColor: Colors.black,
         ),
         body: SingleChildScrollView(
           child: Padding(

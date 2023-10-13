@@ -14,17 +14,7 @@ Welcome to the documentation pages of the _ITFlow_!
 * [Test](/docs/Test.md)
 * [Project management](/docs/ProjectManagement.md)
 
-
-Here are some screenshots of the application:
-<p align="center">
-  <img src="images/screenshot_home_screen.png" width="270" title="hover text">
-  <img src="images/screenshot_search.png" width="270" alt="accessibility text">
-  <img src="images/screenshot_search_filters.png" width="270" alt="accessibility text">
-  <img src="images/screenshot_offer_description.png" width="270" alt="accessibility text">
-  <img src="images/screenshot_offer_company.png" width="270" alt="accessibility text">
-  <img src="images\screenshot_profile.png" width="270" alt="accessibility text">
-</p>
-
+<img src="images/Gif.gif" title="hover text">
 
 - Adriano Alexandre dos Santos Machado
 - Igor Cherstnev

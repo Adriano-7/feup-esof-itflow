@@ -17,6 +17,7 @@ class SearchScreen extends StatefulWidget {
 }
 
 class _SearchScreenState extends State<SearchScreen> {
+  final TextEditingController _searchController = TextEditingController();
   String _searchText = '';
   Map<String, dynamic> _filters = {};
 
@@ -35,6 +36,12 @@ class _SearchScreenState extends State<SearchScreen> {
         _filters = updatedFilters;
       });
     }
+  }
+
+  void _handleSearch(String searchText) {
+    setState(() {
+      _searchText = searchText;
+    });
   }
 
   @override
@@ -57,6 +64,7 @@ class _SearchScreenState extends State<SearchScreen> {
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: TextField(
+              controller: _searchController,
               decoration: InputDecoration(
                 prefixIcon: const Icon(Icons.search),
                 hintText: 'Search...',
@@ -80,12 +88,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   },
                 ),
               ),
-              onChanged: (value) {
-                if (mounted){
-                setState(() {
-                  _searchText = value;
-                });}
-              },
+              onSubmitted: _handleSearch,
             ),
           ),
           FiltersApplied(
