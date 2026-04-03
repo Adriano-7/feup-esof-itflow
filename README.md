@@ -30,6 +30,18 @@ Finding a role in the IT industry can be daunting, but **ITFlow** simplifies the
 
 ![ITFlow Preview](docs/images/Gif.gif) *(Preview of the application)*
 
+## Screenshots
+
+### User Experience & Authentication
+| Start Screen | Home Screen | Search |
+| :---: | :---: | :---: |
+| <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/start_screen.jpg" width="400" /> | <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/screenshot_home_screen.png" width="400" /> | <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/screenshot_search.png" width="400" /> |
+
+### Search & Job Details
+| Search Filters | Offer Description | Company View |
+| :---: | :---: | :---: |
+| <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/screenshot_search_filters.png" width="400" /> | <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/screenshot_offer_description.png" width="400" /> | <img src="https://github.com/Adriano-7/feup-esof-ItFlow/raw/main/images/screenshot_offer_company.png" width="400" /> |
+
 ## Technical Architecture
 
 The software is structured into distinct layers following a structured MVC-like pattern adapted for Flutter:
